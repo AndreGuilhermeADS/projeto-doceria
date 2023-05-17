@@ -1,0 +1,125 @@
+@media screen and (min-width:1133px) {
+
+    .sessao-minibanner {
+        width: 300px;
+        height: 350px;
+        background-image: url(../img/banner3.jpg);
+        background-position: center;
+        background-size: cover;
+        float: left;
+        border-radius: 3px;
+    }
+
+    .sessao-descricao {
+        position: absolute;
+        left: 350px;
+        padding-right: 30px;
+        text-align: justify;
+    }
+    
+    .sessao-descricao p {
+        line-height: 2;
+        font-size: 13.5px;
+        margin-bottom: 15px;
+        margin-left: 25px;
+    }
+
+    #sessao-sobre .sessao-minibanner {
+        float: right;
+        margin: 0px 30px;
+        background-image: url(../img/banner4.jpg);
+    }
+    
+    #sessao-sobre .sessao-descricao {
+        position: absolute;
+        left: 25px;
+        width: calc(100% - 380px);
+        text-align: justify;
+    }
+
+    #sessao-doces1, #sessao-doces2, #sessao-doces3 {
+        padding-right: 30px;
+        margin-bottom: 50px;
+    }
+    
+    .doces1-imgs {
+        width: 18.6%;
+        margin-left: .5%;
+        margin-right: .5%;
+    }
+    
+    .doces2-imgs {
+        width: 31.9%;
+        margin-left: .5%;
+        margin-right: .5%;
+    }
+    
+    .doces3-imgs {
+        width: 23.5%;
+        margin-left: .5%;
+        margin-right: .5%;
+    }
+}
+
+@media screen and (min-width:1380px) {
+
+    .sessao-minibanner {
+        width: 350px;
+        height: 400px;
+        background-image: url(../img/banner3.jpg);
+        background-position: center;
+        background-size: cover;
+        float: left;
+        border-radius: 3px;
+    }
+
+    .sessao-descricao {
+        position: absolute;
+        left: 400px;
+        padding-right: 30px;
+        text-align: justify;
+    }
+    
+    .sessao-descricao p {
+        line-height: 2.5;
+        font-size: 14.5px;
+        margin-bottom: 15px;
+        margin-left: 25px;
+    }
+
+    #sessao-sobre .sessao-minibanner {
+        float: right;
+        margin: 0px 30px;
+        background-image: url(../img/banner4.jpg);
+    }
+    
+    #sessao-sobre .sessao-descricao {
+        position: absolute;
+        left: 25px;
+        width: calc(100% - 430px);
+        text-align: justify;
+    }
+
+    #sessao-doces1, #sessao-doces2, #sessao-doces3 {
+        padding-right: 30px;
+        margin-bottom: 50px;
+    }
+    
+    .doces1-imgs {
+        width: 18.8%;
+        margin-left: .5%;
+        margin-right: .5%;
+    }
+    
+    .doces2-imgs {
+        width: 32.1%;
+        margin-left: .5%;
+        margin-right: .5%;
+    }
+    
+    .doces3-imgs {
+        width: 23.7%;
+        margin-left: .5%;
+        margin-right: .5%;
+    }
+}
