@@ -134,6 +134,7 @@ section {
     position: absolute;
     left: 330px;
     padding-right: 30px;
+    text-align: justify;
 }
 
 .sessao-descricao p {
@@ -174,6 +175,7 @@ section {
     position: absolute;
     left: 25px;
     width: calc(100% - 350px);
+    text-align: justify;
 }
 
 /* galerias */
@@ -307,4 +309,52 @@ footer{
 
 footer p{
     text-align: center;
+}
+
+@media screen and (min-width:1133px) {
+
+    .sessao-minibanner {
+        width: 300px;
+        height: 350px;
+        background-image: url(../img/banner3.jpg);
+        background-position: center;
+        background-size: cover;
+        float: left;
+        border-radius: 3px;
+    }
+
+    .sessao-descricao {
+        position: absolute;
+        left: 350px;
+        padding-right: 30px;
+        text-align: justify;
+    }
+    
+    .sessao-descricao p {
+        line-height: 2;
+        font-size: 13.5px;
+        margin-bottom: 15px;
+        margin-left: 25px;
+    }
+
+    #sessao-sobre .sessao-minibanner {
+        float: right;
+        margin: 0px 30px;
+        background-image: url(../img/banner4.jpg);
+    }
+    
+    #sessao-sobre .sessao-descricao {
+        position: absolute;
+        left: 25px;
+        width: calc(100% - 380px);
+        text-align: justify;
+    }
+    
+    .doces1-imgs {
+        width: 17.7%;
+        margin-left: .5%;
+        margin-right: .5%;
+    }
+    
+    
 }
