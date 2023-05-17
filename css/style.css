@@ -195,7 +195,7 @@ section {
 }
 
 .doces1-imgs {
-    width: 17.2%;
+    width: 17.4%;
     margin-left: .5%;
     margin-right: .5%;
 }
@@ -281,9 +281,10 @@ section {
     font-family: 'Open sans', sans-serif;
 }
 
-#form-contato input[type=text]:focus , #form-contato input[type=email]:focus, #form-contato textarea:focus{
+#form-contato input[type=text]:focus-within , #form-contato input[type=email]:focus , #form-contato textarea:focus{
     border-color: #2790c6;
 }
+
 #form-contato textarea{
     height: 150px;
 }
