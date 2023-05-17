@@ -351,10 +351,20 @@ footer p{
     }
     
     .doces1-imgs {
-        width: 17.7%;
+        width: 17.8%;
         margin-left: .5%;
         margin-right: .5%;
     }
     
+    .doces2-imgs {
+        width: 30.5%;
+        margin-left: .5%;
+        margin-right: .5%;
+    }
     
+    .doces3-imgs {
+        width: 22.4%;
+        margin-left: .5%;
+        margin-right: .5%;
+    }
 }
