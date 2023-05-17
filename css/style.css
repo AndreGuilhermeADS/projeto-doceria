@@ -76,6 +76,8 @@ a {
 .content h1, .content h2 {
     color: #006599;
     margin-bottom: 30px;
+    font-weight: normal;
+
 }
 .content h1 {
     font-size: 48px;
